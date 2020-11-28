@@ -1,5 +1,21 @@
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/Vazir.eot') format('embedded-opentype'),
+    url('../fonts/Vazir.woff') format('woff'),
+    url('../fonts/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+P{
+
+}
+
 body {
     overflow-x:hidden!important;
+    font-family: Vazir;
+
 }
 
 /* Start Header */
@@ -102,12 +118,6 @@ body {
     color: #00989A;
 }
 
-/*
-.icon-header-link:hover:after {
-    opacity: 1;
-    transform: scale(1.15);
-}
-*/
 
 .header-main {
     margin-top: 200px;
@@ -133,23 +143,15 @@ body {
     text-align: center;
 }
 
-/*
-.background-img {
 
-}
-
-.img:hover {
-
-}
-*/
-
-.text-two {
+.services-section h2 {
     font-size: 30px;
     font-weight: 500;
     margin-top: 20px;
 }
 
-.text-three {
+.services-section p {
+    text-align: justify;
     padding: 5px 25px 40px 25px;
     color: #7a7a7a;
     font-size: 15px;
@@ -269,16 +271,19 @@ body {
     z-index: 100;
 }
 
-.text-seven {
+.section-box-info h4 {
     color: white;
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 400;
 }
+.section-box-info{
 
-.text-eight {
+}
+.section-box-info p{
     color: #777777 !important;
     z-index: 100;
     padding: 5px 0 5px 30px;
+    text-align: justify;
 }
 
 /* Start Section Four */
