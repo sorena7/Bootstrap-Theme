@@ -375,9 +375,19 @@ body {
 }
 
 /* Start Slider */
-.swiper-container {
+.swiper-container{
     width: 600px;
     height: auto;
+}
+.swiper-container p {
+    margin-top: 25px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.swiper-container h5{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
 }
 .swiper-slide {
     text-align: center;
@@ -398,42 +408,20 @@ body {
     -webkit-align-items: center;
     align-items: center;
 }
-.slider-button-next {
-    font-size: 45px;
-    margin-top: 130px;
-    margin-bottom: 120px;
-    text-align: left;
+.swiper-button-next::after,.swiper-button-prev::after{
+    font-size: 22px!important;
+    color: black;!important;
 }
-
-.slider-text {
-    margin-bottom: 30px;
+.swiper-button-prev,.swiper-button-next{
+    font-size: 22px!important;
+    color: black;!important;
 }
-
 .img-slider {
-    width: 100px;
+    width: 80px;
     margin-top: 40px;
-    border-radius: 200px;
+    border-radius: 50px;
+    height: 80px;
 }
-
-.text-fourteen {
-    margin-top: 25px;
-    padding-right: 40px;
-    padding-left: 40px;
-}
-
-.text-fifteen {
-    font-size: 18px;
-    font-weight: 500;
-    margin-top: 30px;
-}
-
-.slider-button-prev {
-    font-size: 45px;
-    margin-top: 130px;
-    margin-bottom: 120px;
-}
-
-
 /* Start Banner */
 
 .background-banner {
@@ -486,7 +474,7 @@ body {
     color: gray;
 }
 
-.text-eighteen {
+.footer p {
     margin-top: 20px;
 }
 
