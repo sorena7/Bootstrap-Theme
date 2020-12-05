@@ -2,19 +2,17 @@
 <html lang="fa">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <!-- start bootstrap-->
+    
     <link rel="stylesheet" href="css/bootstrap-rtl.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <!--start javascript-->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/custom.js"></script>
-    <script src="js/swiper-bundle.min.js"></script>
 
 </head>
 <body>
@@ -23,69 +21,75 @@
 <header id="background-header">
     <div class="container-fluid ">
         <div class="row">
-            <div class="col-lg-3 z-index">
-                <h2 class="logo">LOGO</h2>
-            </div>
-            <div class="col-lg-6 z-index">
-                <nav class="navbar navbar-expand-lg navbar-light ">
-                    <a class="navbar-brand" href="#"></a>
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <div class="col-12 menu z-index">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="z-index">
+                        <h2 class="logo">لوگو</h2>
+                    </div>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
-                        <ul class="navbar-nav ">
-                            <li class="nav-item nav-link active dropdown ">
-                                <a class="text-white nav-link dropdown-toggle" href="index.html" id="navbarDropdownMenuLink"
-                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    صفحه اصلی
-                                </a>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <ul class="navbar-nav mr-auto ml-auto mt-2 mt-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="#">صفحه اصلی <span class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item nav-link">
-                                <a class="nav-link dropdown-toggle text-white" href="services.html" id="avbarDropdownMenuLink"
-                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    خدمات
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        خدمات
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">پروژه</a></li>
-                                    <li><a class="dropdown-item" href="#">پروژه</a></li>
-                                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">منوی
-                                        کشویی</a>
+                                <ul class="dropdown-menu bg-info" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item text-white" href="#">طراحی سایت</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">سئو</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-white" href="#">دیجیتال مارکتینگ</a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">زیر منو</a></li>
-                                            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle"
-                                                                            href="#">زیر
-                                                منو 2</a>
+                                            <li><a class="dropdown-item text-white" href="#">طراحی قالب</a></li>
+                                            <li><a class="dropdown-item text-white" href="#">برنامه نویسی</a></li>
+
+
+                                            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-white" href="#">برنامه نویسی</a>
                                                 <ul class="dropdown-menu">
-                                                    <li><a class="dropdown-item" href="#">زیرمنو2</a></li>
-                                                    <li><a class="dropdown-item" href="#">زیر منو2</a></li>
+                                                    <li><a class="dropdown-item text-white" href="#">کد نویسی اختصاصی</a></li>
+                                                    <li><a class="dropdown-item text-white" href="#">کدنویسی بهینه</a></li>
                                                 </ul>
                                             </li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle text-white" href="#">آپدیت بروز قالب</a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item text-white" href="#">HTML</a></li>
+                                                    <li><a class="dropdown-item text-white" href="#">CSS</a></li>
+                                                </ul>
+                                            </li>
+
+
+
                                         </ul>
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-item nav-link active">
-                                <a class="text-white nav-link dropdown-toggle" href="blog.html"
-                                    aria-haspopup="true" aria-expanded="false">
-                                    وبلاگ
-                                </a>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="weblog.html" >وبلاگ<span class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item nav-link">
-                                <a class="nav-link text-white" href="contactus.html"> ارتباط با ما</a>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="aboutus.html">درباره ما<span class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item nav-link">
-                                <a class="nav-link text-white" href="aboutus.html">درباره ما</a>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="contactus.html">تماس با ما<span class="sr-only">(current)</span></a>
                             </li>
                         </ul>
+
                     </div>
+                    <div class="z-index icon-header">
+                        <div class="">
+                            <a class="icon-header-link" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="icon-header-link" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="icon-header-link" href="#"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+
                 </nav>
-            </div>
-            <div class="col-lg-3 z-index">
-                <div class="icon-header">
-                    <a class="icon-header-link" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="icon-header-link" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="icon-header-link" href="#"><i class="fab fa-facebook-f"></i></a>
-                </div>
+
             </div>
         </div>
     </div>
@@ -114,7 +118,7 @@
                 <div class="background-img">
                     <img class="" src="image/secure.png">
                 </div>
-                <h3>پشتیبانی ایمن</h3>
+                <h4>پشتیبانی ایمن</h4>
                 <p> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
                     گرافیک است. چاپگرها
                     و
@@ -126,7 +130,7 @@
                 <div class="background-img">
                     <img class="" src="image/laptop%20(2).png">
                 </div>
-                <h3>تبلیغات و بازاریابی</h3>
+                <h4>تبلیغات و بازاریابی</h4>
                 <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
                     گرافیک است. چاپگرها
                     و
@@ -138,7 +142,7 @@
                 <div class="background-img">
                     <img class="" src="image/search-engine-optimization%20(2).png">
                 </div>
-                <h3>بهینه سازی seo</h3>
+                <h4>بهینه سازی seo</h4>
                 <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
                     گرافیک است. چاپگرها
                     و
@@ -155,13 +159,13 @@
 <!-- Start Section two -->
 
 <section>
-    <div class="container">
+    <div class="container project">
         <div class="row section-two">
             <div class="col-xl-7 col-sm-12">
-                <h2 class="text-four">پروژه های موفق</h2>
-                <h5 class="text-five">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                <h2>پروژه های موفق</h2>
+                <h5>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
                     گرافیک است.</h5>
-                <p class="text-six">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
                     گرافیک است. چاپگرها و
                     متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
                     کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
@@ -207,8 +211,8 @@
 
     </div>
 </div>
-<section id="background-section" class="">
-    <div class="container py-5">
+<section id="background-section">
+    <div class="container py-5 skills">
         <div class="row pt-5 mt-4 pb-4">
             <div class="col">
                 <div class="row pb-4 pt-2 clearfix">
@@ -424,40 +428,44 @@
 <!-- Start Slider -->
 <section>
     <div class="container ">
-        <div class="row">
+        <div class="row justify-content-center">
             <!-- Slider main container -->
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="col-8 text-center slider-text">
 
-                                      <img src="image/11986.jpg" class="img-slider" alt="">
-                                        <p>
-                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
-                                           طراحان
-                                           گرافیک است.
-                                       </p>
-                                        <h5>رضا حسنی</h5>
-                        </div>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active text-center slider-text">
+                        <img class="d-block img-slider mr-auto ml-auto" src="image/11986.jpg" alt="First slide">
+                        <p>رضا حسنی برنامه نویس ارشد فرانت اند با 5 سال سابقه حرفه ای در زمینه برنامه نویسی نرم افزار های تحت وب</p>
+                        <h6>رضا حسنی</h6>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="col-8 text-center slider-text">
-
-                            <img src="image/11986.jpg" class="img-slider" alt="">
-                            <p>
-                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
-                                طراحان
-                                گرافیک است.
-                            </p>
-                            <h5>امیرمحمد میرزائی</h5>
-                        </div>
+                    <div class="carousel-item text-center slider-text">
+                        <img class="d-block img-slider mr-auto ml-auto" src="image/11986.jpg" alt="Seconde slide">
+                        <p>رضا حسنی برنامه نویس ارشد فرانت اند با 5 سال سابقه حرفه ای در زمینه برنامه نویسی نرم افزار های تحت وب</p>
+                        <h6>رضا حسنی</h6>
+                    </div>
+                    <div class="carousel-item text-center slider-text">
+                        <img class="d-block img-slider mr-auto ml-auto" src="image/11986.jpg" alt="Third slide">
+                        <p>رضا حسنی برنامه نویس ارشد فرانت اند با 5 سال سابقه حرفه ای در زمینه برنامه نویسی نرم افزار های تحت وب</p>
+                        <h6>رضا حسنی</h6>
                     </div>
 
                 </div>
-                <!-- Add Arrows -->
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-            </div>        </div>
+                <a class="carousel-control-prev " href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+    </div>
     </div>
 </section>
 
@@ -488,20 +496,11 @@
                 <a href="#"><i class="fab fa-twitter mr-4"></i></a>
                 <a href="#"><i class="fab fa-facebook-f mr-4"></i></a>
                 <br>
-                <p class="text-eighteen">Copyright 2020. All Rights Reserved &copy;</p>
+                <p class="copyright">تمامی حقوق برای این وبسایت محفوظ است</p>
             </div>
         </div>
     </div>
 </footer>
-<!-- Font Awesome -->
 <script src="js/all.min.js"></script>
-<script>
-    var swiper = new Swiper('.swiper-container', {
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    });
-</script>
 </body>
 </html>
